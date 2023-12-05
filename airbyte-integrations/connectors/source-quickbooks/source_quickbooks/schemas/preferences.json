@@ -1,0 +1,46 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": ["null", "object"],
+    "properties": {
+        "Id": {
+            "type": ["null", "string"]
+        },
+        "SyncToken": {
+            "type": ["null", "string"]
+        },
+        "MetaData": {
+            "type": ["null", "string"]
+        },
+        "EmailMessagesPrefs": {
+            "type": ["null", "string"]
+        },
+        "ProductAndSerciesPrefs": {
+            "type": ["null", "string"]
+        },
+        "ReportPrefs": {
+            "type": ["null", "string"]
+        },
+        "AccountingInfoPrefs": {
+            "type": ["null", "string"]
+        },
+        "SalesFormsPrefs": {
+            "type": ["null", "string"]
+        },
+        "VendorAndPurchasesPrefs": {
+            "type": ["null", "string"]
+        },
+        "TaxPrefs": {
+            "type": ["null", "string"]
+        },
+        "OtherPrefs": {
+            "type": ["null", "string"]
+        },
+        "TimeTrackingPrefs": {
+            "type": ["null", "string"]
+        },
+        "CurrencyPrefs": {
+            "type": ["null", "string"]
+        }
+    }
+  }
+  

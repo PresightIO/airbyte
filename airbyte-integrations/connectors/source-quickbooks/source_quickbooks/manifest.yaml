@@ -268,6 +268,42 @@ definitions:
       table_name: "Vendor"
       additional_where: "AND Active IN (true, false)"
 
+  attachable:
+    $ref: "#/definitions/base_stream"
+    name: "attachable"
+    $parameters:
+      $ref: "#/definitions/base_stream/$parameters"
+      table_name: "Attachable"
+
+  company_currency:
+    $ref: "#/definitions/base_stream"
+    name: "company_currency"
+    $parameters:
+      $ref: "#/definitions/base_stream/$parameters"
+      table_name: "CompanyCurrency"
+
+  company_info:
+    $ref: "#/definitions/base_stream"
+    name: "company_info"
+    $parameters:
+      $ref: "#/definitions/base_stream/$parameters"
+      table_name: "CompanyInfo"
+
+  journal_code:
+    $ref: "#/definitions/base_stream"
+    name: "journal_code"
+    $parameters:
+      $ref: "#/definitions/base_stream/$parameters"
+      table_name: "JournalCode"
+
+  preferences:
+    $ref: "#/definitions/base_stream"
+    name: "preferences"
+    $parameters:
+      $ref: "#/definitions/base_stream/$parameters"
+      table_name: "Preferences"
+
+
 streams:
   - "#/definitions/accounts"
   - "#/definitions/bill_payments"
@@ -297,6 +333,11 @@ streams:
   - "#/definitions/transfers"
   - "#/definitions/vendor_credits"
   - "#/definitions/vendors"
+  - "#/definitions/attachable"
+  - "#/definitions/company_currency"
+  - "#/definitions/company_info"
+  - "#/definitions/journal_code"
+  - "#/definitions/preferences"
 
 check:
   type: CheckStream

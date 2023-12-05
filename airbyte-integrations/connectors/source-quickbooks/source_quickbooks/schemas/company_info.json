@@ -1,0 +1,55 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": ["null", "object"],
+    "properties": {
+      "Id": {
+        "type": ["null", "string"]
+      },
+      "SyncToken": {
+        "type": ["null", "string"]
+      },
+      "CompanyName": {
+        "type": ["null", "string"]
+      },
+      "CompanyAddr": {
+        "type": ["null", "string"]
+      },
+      "LegalAddr": {
+        "type": ["null", "string"]
+      },
+      "SupportedLanguages": {
+        "type": ["null", "string"]
+      },
+      "Country": {
+        "type": ["null", "string"]
+      },
+      "Email": {
+        "type": ["null", "string"]
+      },
+      "WebAddr": {
+        "type": ["null", "string"]
+      },
+      "NameValue": {
+        "type": ["null", "string"]
+      },
+      "FiscalYearStartMonth": {
+        "type": ["null", "string"]
+      },
+      "CustomerCommunicationAddr": {
+        "type": ["null", "string"]
+      },
+      "PrimaryPhone": {
+        "type": ["null", "string"]
+      },
+      "LegalName": {
+        "type": ["null", "string"]
+      },
+      "MetaData": {
+        "type": ["null", "string"]
+      },
+      "CompanyStartDate": {
+        "type": ["null", "string"]
+      }
+    }
+  }
+  

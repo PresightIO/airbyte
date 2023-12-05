@@ -1,0 +1,100 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": ["null", "object"],
+    "properties": {
+      "Id": {
+        "type": ["null", "string"]
+      },
+      "SyncToken": {
+        "type": ["null", "string"]
+      },
+      "FileName": {
+        "type": ["null", "string"]
+      },
+      "Note": {
+        "type": ["null", "string"]
+      },
+      "Category": {
+        "type": ["null", "string"]
+      },
+      "ContentType": {
+        "type": ["null", "string"]
+      },
+      "PlaceName": {
+        "type": ["null", "string"]
+      },
+      "AttachableRef": {
+        "type": ["null", "object"],
+        "properties": {
+            "IncludeOnSend": {
+                "type": ["null", "boolean"]
+            },
+            "LineInfo": {
+                "type": ["null", "string"]
+            },
+            "NoRefOnly": {
+                "type": ["null", "boolean"]
+            },
+            "CustomField": {
+                "type": ["null", "object"],
+                "properties": {
+                    "DefinitionId": {
+                        "type": ["null", "string"]
+                    },
+                    "StringValue": {
+                        "type": ["null", "string"]
+                    },
+                    "Name": {
+                        "type": ["null", "string"]
+                    },
+                    "Type": {
+                        "type": ["null", "string"]
+                    }
+                }
+            },
+            "Inactive": {
+                "type": ["null", "boolean"]
+            },
+            "EntityRef": {
+                "type": ["null", "object"],
+                "properties": {
+                    "value": {
+                        "type": ["null", "string"]
+                    },
+                    "name": {
+                        "type": ["null", "string"]
+                    }
+                }
+            }
+        },
+        "Long": {
+            "type": ["null", "string"]
+        },
+        "Tag": {
+            "type": ["null", "string"]
+        },
+        "Lat": {
+            "type": ["null", "string"]
+        },
+        "MetaData": {
+            "type": ["null", "string"]
+        },
+        "FileAccessUri": {
+            "type": ["null", "string"]
+        },
+        "Size": {
+            "type": ["null", "number"]
+        },
+        "ThumbnailFileAccessUri": {
+            "type": ["null", "string"]
+        },
+        "TempDownloadUri": {
+            "type": ["null", "string"]
+        },
+        "ThumbnailTempDownloadUri": {
+            "type": ["null", "string"]
+        }
+      }
+    }
+  }
+  
